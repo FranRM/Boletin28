@@ -12,8 +12,7 @@ package boletin28;
 public class Alumno {
     private String nome;
     private int nota;
-    private Enderezo enderezo;
-    Enderezo e1;
+    private Enderezo e1;
     public Alumno(String nom,int not,String d,int num){
     this.nome=nom;
     this.nota=not;
@@ -37,11 +36,11 @@ public class Alumno {
     }
 
     public Enderezo getEnderezo() {
-        return enderezo;
+        return e1;
     }
 
     public void setEnderezo(Enderezo enderezo) {
-        this.enderezo = enderezo;
+        this.e1 = enderezo;
     }
 
     @Override
